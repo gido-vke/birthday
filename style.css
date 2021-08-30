@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+
 :root {
     --bannercolor: #134074;
     --sitebackground: white;
     --footercolor: #EDF4FC;
     --footertext: grey;
 }
+
+@media only screen and (max-width: 600px) {
+    aside {
+        margin-left: 5%;                                            /* */ 
+        margin-right: 5%;   
+
+    }
+    ul {
+        padding-left: 5%;                                            /* */ 
+        padding-right: 5%;
+    }
+  }
 
 body {
     background-color: var(--sitebackground);
@@ -32,7 +45,8 @@ h1 {
 
 ul {
     list-style-type: square;
-    padding-left: 10%;
+    padding-left: 10%;                                            /* */ 
+    padding-right: 10%;
 }
 
 li {
@@ -83,7 +97,8 @@ footer {
 
 aside {
     max-width: 400px;
-    margin-left: 10%;
+    margin-left: 10%;                                            /* */ 
+    margin-right: 10%;   
     background-color: var(--bannercolor);
     color: white;
 }
