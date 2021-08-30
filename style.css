@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+* {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Magra', sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.525rem;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+    background-color: #3A89F0;
+    color: white;
+    padding: 40px 20px;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 10%;
+}
+
+li{
+    padding-bottom: 25px;
+
+}
+
+p{
+    max-width: 400px;
+}
+
+h2{
+    font-size: 1.3rem;
+}
